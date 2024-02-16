@@ -1,0 +1,39 @@
+a{
+    color:green;
+ }
+ a[target]{
+    color:red;
+ }
+  p:nth-last-child(4){
+    color:blue;
+ }
+ p:nth-child(4){
+    color:red;
+ }
+ p:nth-of-type(5){
+    color:red;
+ }
+ p:nth-child(5){
+    color:blue;
+    
+ }
+ p:nth-last-child(5){
+    color:red;
+ }
+p:nth-child(7n+1):hover{
+  font-style: italic;
+ }
+p:nth-child(3)::after {
+color: yellow;
+content: " -NEW";
+ }
+p:nth-last-child(4)::after{
+    content: none;
+ }
+ p:nth-last-child(3)::after{
+  color: yellow;
+  content: " -NEW";
+ }
+ p:nth-child(4)::after{
+  content: none;
+ }
