@@ -37,3 +37,6 @@ p:nth-last-child(4)::after{
  p:nth-child(4)::after{
   content: none;
  }
+p:nth-child(6n+1)::after{
+   content: none;
+}
